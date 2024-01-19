@@ -8,8 +8,8 @@
 """
 Qutrit Experiment Framework.
 
-This experiment is irregular. This experiment uses schedule payload for execution and
-use control channels for frame management.
+This experiment is irregular. This experiment uses schedule payloads for execution and
+uses control channels for frame management.
 """
 
 from .calibrations import QutritCalibrations
