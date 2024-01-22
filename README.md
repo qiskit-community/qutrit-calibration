@@ -4,9 +4,6 @@
 
 A qutrit experiment extension for Qiskit Experiments
 
-This is a Python package template for creating an extension experiment
-for [Qiskit Experiments](https://github.com/Qiskit/qiskit-experiments).
-
 Once installed it can imported using
 
 ```python
@@ -15,14 +12,22 @@ import qiskit_qutrit_calibration
 
 ## Installation
 
-This package can be installed from the downloaded repository using pip as
+This package can be installed in three wasy:
+
+1. Via pip as
+
+```bash
+pip install qiskit-qutrit-calibration
+```
+
+2. Installed from the downloaded repository using pip using
 
 ```bash
 cd qiskit-qutrit-calibration
 pip install .
 ```
 
-If this package is hosted on GitHub you can install it directly using the command
+3. Directly from the github repository using
 
 ```bash
 pip install git+https://github.com/qiskit-community/qutrit-calibration
