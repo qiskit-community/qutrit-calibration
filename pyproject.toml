@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "qiskit-qutrit-calibration"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "A qiskit experiments extension to calibrate single qutrit gates."
 authors = ["Naoki Kanazawa", "Kaelyn Ferris"]
 maintainers = ["Kaelyn Ferris"]
 readme = "README.md"
@@ -10,6 +10,7 @@ readme = "README.md"
 python = "^3.12"
 qiskit-experiments = "^0.5.4"
 qiskit-ibm-provider = "^0.8.0"
+setuptools = "^69.0.3"
 
 
 [tool.poetry.group.dev.dependencies]
