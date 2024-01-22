@@ -2,7 +2,8 @@
 name = "qiskit-qutrit-calibration"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Naoki Kanazawa", "Kaelyn Ferris"]
+maintainers = ["Kaelyn Ferris"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
