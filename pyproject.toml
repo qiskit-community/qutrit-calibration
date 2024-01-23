@@ -23,6 +23,9 @@ pygments = "^2.17.2"
 reno = "^4.0.0"
 tox = "^4.11.4"
 setuptools = "^69.0.3"
+qiskit-aer = "^0.13.2"
+pytest = "^7.4.4"
+multimethod = "^1.10"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
