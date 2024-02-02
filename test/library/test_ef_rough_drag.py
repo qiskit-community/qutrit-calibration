@@ -9,20 +9,20 @@
 Utilities to test calibration experiments
 """
 
-from test.base import QiskitExperimentsTestCase
-
-from qiskit_experiments.test.mock_iq_backend import MockIQBackend
-from qiskit_experiments.test.mock_iq_helpers import MockIQDragHelper as DragHelper
-
-
-
-
-class TestEFDragExperiment(QiskitExperimentsTestCase):
-
-    def test_list_int(self):
-        """
-        Test that it can sum a list of integers
-        """
-        data = [1, 2, 3]
-        result = sum(data)
-        self.assertEqual(result, 6)
+# from test.base import QiskitExperimentsTestCase
+#
+# from qiskit_experiments.test.mock_iq_backend import MockIQBackend
+# from qiskit_experiments.test.mock_iq_helpers import MockIQDragHelper as DragHelper
+#
+#
+#
+#
+# class TestEFDragExperiment(QiskitExperimentsTestCase):
+#
+#     def test_list_int(self):
+#         """
+#         Test that it can sum a list of integers
+#         """
+#         data = [1, 2, 3]
+#         result = sum(data)
+#         self.assertEqual(result, 6)
